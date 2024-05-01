@@ -1,0 +1,41 @@
+$date
+	Wed Apr 17 11:57:19 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bitpos_tb $end
+$var wire 3 ! bit_position [2:0] $end
+$var reg 8 " binary_number [7:0] $end
+$scope module u0 $end
+$var wire 8 # binary_number [7:0] $end
+$var reg 3 $ bit_position [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+b1 #
+b1 "
+b0 !
+$end
+#5
+b1 !
+b1 $
+b10 "
+b10 #
+#10
+b10 !
+b10 $
+b100 "
+b100 #
+#15
+b11 !
+b11 $
+b1000 "
+b1000 #
+#115
