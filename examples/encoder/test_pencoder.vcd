@@ -1,0 +1,29 @@
+$date
+	Mon Apr  8 15:24:16 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pencoder_tb $end
+$var wire 3 ! data_out [2:0] $end
+$var reg 8 " data_in [7:0] $end
+$var reg 1 # enable $end
+$scope module u0 $end
+$var wire 8 $ data_in [7:0] $end
+$var wire 1 # enable $end
+$var reg 3 % data_out [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 %
+b10 $
+1#
+b10 "
+b1 !
+$end
+#1000
