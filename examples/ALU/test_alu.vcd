@@ -1,0 +1,91 @@
+$date
+	Fri Apr 12 15:46:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 8 ! z [7:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 2 $ sel [1:0] $end
+$scope module u0 $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & b [3:0] $end
+$var wire 2 ' sel [1:0] $end
+$var reg 8 ( z [7:0] $end
+$scope function add $end
+$var reg 4 ) a [3:0] $end
+$var reg 4 * b [3:0] $end
+$upscope $end
+$scope function exor $end
+$var reg 4 + a [3:0] $end
+$var reg 4 , b [3:0] $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$scope function mul $end
+$var reg 4 . a [3:0] $end
+$var reg 4 / b [3:0] $end
+$upscope $end
+$scope function sub $end
+$var reg 4 0 a [3:0] $end
+$var reg 4 1 b [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#5
+b11101 !
+b11101 (
+b1111 )
+b1110 *
+b1110 #
+b1110 &
+b1111 "
+b1111 %
+#15
+b1 !
+b1 (
+b1111 0
+b1110 1
+b1 $
+b1 '
+#25
+b11010010 !
+b11010010 (
+b1111 .
+b1110 /
+b10 $
+b10 '
+#35
+b0x !
+b0x (
+b101 -
+b1111 +
+b1110 ,
+b11 $
+b11 '
+#135
