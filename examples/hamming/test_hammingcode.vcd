@@ -1,0 +1,71 @@
+$date
+	Wed May 29 15:39:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module hammingcode_tb $end
+$var wire 1 ! error $end
+$var wire 7 " code_out [6:0] $end
+$var reg 4 # data_in [3:0] $end
+$scope module uut $end
+$var wire 4 $ data_in [3:0] $end
+$var reg 7 % code_out [6:0] $end
+$var reg 1 ! error $end
+$var reg 7 & hamming_code [6:0] $end
+$var reg 3 ' syndrome [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10
+1!
+b100 '
+b1110000 "
+b1110000 %
+b1110000 &
+b1 #
+b1 $
+#20
+0!
+b0 '
+b1001100 "
+b1001100 %
+b1001100 &
+b10 #
+b10 $
+#30
+b101010 "
+b101010 %
+b101010 &
+b100 #
+b100 $
+#40
+1!
+b100 '
+b1101001 "
+b1101001 %
+b1101001 &
+b1000 #
+b1000 $
+#50
+0!
+b0 '
+b1111111 "
+b1111111 %
+b1111111 &
+b1111 #
+b1111 $
+#160
